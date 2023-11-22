@@ -1,0 +1,23 @@
+body { 
+    background-color: black;
+}
+
+.card {
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-block: 100px;
+    background-color: rgba(240, 248, 255, 0.048);
+    padding-block: 50px;
+
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

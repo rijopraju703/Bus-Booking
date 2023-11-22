@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            
+          <a class="navbar-brand" href="#"><svg xmlns="<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V288 448c0 17.7 14.3 32 32 32s32-14.3 32-32V320h95.3L261.8 466.4c10.1 14.5 30.1 18 44.6 7.9s18-30.1 7.9-44.6L230.1 309.5C282.8 288.1 320 236.4 320 176c0-79.5-64.5-144-144-144H64zM176 256H64V96H176c44.2 0 80 35.8 80 80s-35.8 80-80 80z"/></svg><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"/></svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bus Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-primary" type="submit">Booking</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Bus Station5.jpg" class="d-block w-100" alt="..." id="busst">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Our Travels Never Ends</h5>
+              <p>Hello Guys Welcome to The Rijo's Group Official Website</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Bus Station2.jpg" class="d-block w-100" alt="..." id="busst2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Low Rate High Happiness</h5>
+              <p>We Are Not Friends We Are Like A Family</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Passenger.jpg" class="d-block w-100" alt="..." id="pas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Choose Your Favorite Bus</h5>
+              <p>Safe Ride Safe Buses</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="heading">OUR BUSES</h1>
+      <div class="container">
+     <div class="row">
+      <div class="col-3">
+        <div class="card c1" style="width: 18rem;">
+          <img src="images/Bus1.jpg" class="card-img-top" alt="..." id="bus1" >
+          <div class="card-body">
+            <h5 class="card-title">Green King</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Bus6.jpg" class="card-img-top" alt="..." id="bus2">
+          <div class="card-body">
+            <h5 class="card-title">Garuda</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Bus3.jpg" class="card-img-top" alt="..." id="bus1">
+          <div class="card-body">
+            <h5 class="card-title">Kallada</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Bus4.jpg" class="card-img-top" alt="..." id="bus2">
+          <div class="card-body">
+            <h5 class="card-title">Moon </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+     </div>
+     </div>
+     <div class="container">
+      <div class="row">
+       <div class="col-3">
+         <div class="card" style="width: 18rem;">
+           <img src="images/Bus4.jpg" class="card-img-top" alt="..." id="bus1">
+           <div class="card-body">
+             <h5 class="card-title">Moon</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Book Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-3">
+         <div class="card" style="width: 18rem;">
+           <img src="images/Bus3.jpg" class="card-img-top" alt="..." id="bus2">
+           <div class="card-body">
+             <h5 class="card-title">Kallada</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Book Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-3">
+         <div class="card" style="width: 18rem;">
+           <img src="images/Bus6.jpg" class="card-img-top" alt="..." id="bus1"> 
+           <div class="card-body">
+             <h5 class="card-title">Garuda</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Book Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-3">
+         <div class="card" style="width: 18rem;">
+           <img src="images/Bus1.jpg" class="card-img-top" alt="..." id="bus2">
+           <div class="card-body">
+             <h5 class="card-title">Green King</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Book Now</a>
+           </div>
+         </div>
+       </div>
+      </div>
+      </div>
+     
+        <div class="card text-center mt-5 bg-warning">
+          <div class="card-header">
+            Featured @2023
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rijo's Travels's</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Sunt, exercitationem natus possimus animi doloribus accusantium dicta. <br> Voluptate non ducimus vitae, beatae incidunt, exercitationem iusto consectetur possimus autem labore, quibusdam dolorem.</p>
+          </div>
+          <div class="card-footer text-body-secondary">
+            2 days ago
+          </div>
+        </div>
+</body>
+</html>
